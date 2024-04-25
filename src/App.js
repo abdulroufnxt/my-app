@@ -5,7 +5,7 @@ import { FaRegCalendarCheck } from "react-icons/fa";
 import { FaBell } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
 import { BsPostcard } from "react-icons/bs";
-import {Chrono} from 'react-chrono'
+
 
 
 import Slider from 'react-slick'
@@ -27,6 +27,10 @@ class App extends Component {
     date: new Date(),
     array: [],
     apiStatus: loaderStatus.initial
+  }
+
+  fetchingTheCountriesData = async() => {
+        
   }
 
   componentDidMount() {
@@ -187,31 +191,27 @@ class App extends Component {
           <div className="sliderPlusTime">
           <div className="sliderCon">
             {this.callingTheApi()}
-            <button className="button" type="button">
+            <button className="button" type="button" onClick={this.fetchingTheDataCalls}>
               View More
             </button>
           </div>
           <div className="timeLine">
-           <div>
-            <h1> Recent Released </h1> 
-            <select>
+           <div className="firstCon">
+            <h1 className="releace"> Recent Released </h1> 
+            <select className="selectCon">
               <option> India </option>
               <option> USA </option>
             </select>
            </div>
-           <Chrono mode="VERTICAL">
-              <div>
-                <img
-                  src="https://assets.ccbp.in/frontend/react-js/csk-logo-img.png"
-                  className="image"
-                  alt="chennai-super-kings"
-                />
-              </div>
-              <div>
-                <h1>Mumbai Indians</h1>
-                <p>IPL Team winner for the year 2019 is Mumbai Indians.</p>
-              </div>
-           </Chrono>
+           <div>
+            <details> 
+              <summery>
+                FEB 12, 2024
+              </summery>
+              <h1> Industrial Production </h1>
+              <p> Write short paragraphs and cover one topic per paragraph. Long paragraphs discourage users from even trying to understand your material. Short paragraphs are easier to read and understand. </p> 
+            </details>
+           </div>
           </div>
           </div>
         </div>

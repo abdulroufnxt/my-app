@@ -246,4 +246,24 @@
 
 .timeLine {
   margin-left: 10px;
+  width : 40%
+}
+
+.firstCon {
+  display: flex;
+  justify-content: space-between;
+  width : 100%;
+  align-items: center;
+}
+
+
+
+.releace {
+  color: cornflowerblue;
+  font-size: 15px;
+}
+
+
+.selectCon {
+  width : 150px
 }
