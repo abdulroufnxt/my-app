@@ -36,3 +36,214 @@
     transform: rotate(360deg);
   }
 }
+
+
+.sideBarContainer {
+   width : 40px;
+   
+   overflow: hidden;
+   box-shadow: 1px 10px 8px;
+   transition: 0.3s;
+   
+}
+
+.sideBarContainer:hover {
+  width : 700px;
+  margin-left: -80px;
+  transition: 0.4s;
+}
+
+
+.overallContainer {
+  display: flex;
+}
+
+.headerSection {
+  height: 250px;
+  background-color: #271559;
+  width : 98vw;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.greetingCon {
+  padding: 20px
+}
+
+.greetHeading {
+  color:white;
+  height: 12px;
+  margin-top: -8px;
+  font-size: 20px;
+}
+
+.greetingPara {
+  color:#dbd8e3;
+  font-size: 12px;
+}
+
+.adjustOne {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  width : 70px ;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: white;
+}
+
+.cal {
+  
+  font-size: 20px;
+  
+ 
+  width : 20px;
+  color:white;
+  margin-left: -20px;
+  margin-right: -10px;
+}
+
+.week {
+  font-size: 15px;
+  color:white;
+  margin-left: -40px;
+}
+
+
+.allDatesAndTimes {
+  display: flex;
+  width : 30%;
+  
+  justify-content: space-between;
+  height: 30px
+}
+
+.horri {
+  display: flex;
+
+}
+
+.timeCon {
+  display: flex;
+  margin-left: 10px;
+  color:white;
+  align-items: center;
+  width : 100px
+}
+
+
+.timer {
+  font-size: 20px;
+  margin-right: -20px;
+}
+
+.monthName {
+  margin-left: 5px;
+}
+
+.timeConTwo {
+  display: flex;
+  margin-left: -15px;
+  color:white;
+  align-items: center;
+  width : 100px
+} 
+
+
+.con {
+  width : 90%
+}
+
+.sliderCon {
+  width : 60%;
+  border:solid 1px red;
+  margin-left: 40px;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgb(94, 64, 101);
+  text-align: center;
+  
+}
+
+
+.cardsContainer {
+   width : 80%;
+   margin-left: 40px;
+   margin-top: -80px;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  margin-right: 5px
+}
+
+
+.fetchPara {
+  color:white
+}
+
+
+.button {
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.whiteCard {
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px;
+  width : 170px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.one {
+  color:#61dafb;
+  font-size: 25px;
+}
+
+.two {
+  color: #271559; 
+  font-size: 25px;
+}
+
+.three {
+  color: #c71a1a; 
+  font-size: 25px;
+}
+
+.four {
+  color: #983c0e; 
+  font-size: 25px;
+}
+
+.five {
+  color: #155948; 
+  font-size: 25px;
+}
+
+@media (max-width : 900px) {
+  .whiteCard {
+    width : 60px;
+    height: 60px
+  }
+   p {
+    font-size: 8px;
+    height: 10px
+   }
+}
+
+.sliderPlusTime {
+  display: flex;
+}
+
+.timeLine {
+  margin-left: 10px;
+}
